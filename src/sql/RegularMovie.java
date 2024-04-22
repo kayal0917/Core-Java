@@ -2,7 +2,7 @@ package sql;
 
 import java.util.Scanner;
 
-public class RegularMovie {
+public abstract class RegularMovie {
 
 //	String title;
 //	int year;
@@ -12,11 +12,10 @@ public class RegularMovie {
         System.out.println("TITLE: JUJU");
         System.out.println("YEAR: 2000");
         System.out.println("DIRECTOR: SIVA");
-        
-        
-
 
 	}
+	
+	public abstract  void booking();
 }
 
 
